@@ -1,6 +1,6 @@
 <header class="bg-primary bg-gradient text-white py-5 app-header">
     <div class="header-image-container mb-4">
-        <img src="{{ asset('build/assets/img/1.jpeg') }}" alt="Gambar Header Desa" class="img-fluid header-full-width-img">
+        <img src="{{ asset('build/assets/1.jpeg') }}" alt="Gambar Header Desa" class="img-fluid header-full-width-img">
     </div>
 
     <div class="container px-4 text-center">
@@ -47,7 +47,7 @@ html, body {
     width: 100%;
     height: 100%;
     /* Gunakan path relatif dari root public untuk aset Vite */
-    background-image: url('/build/assets/img/1.jpeg');
+    background-image: url('/build/assets/1.jpeg');
     background-size: cover; /* Pastikan gambar mengisi seluruh area */
     background-position: center center; /* Pusatkan gambar */
     background-repeat: no-repeat;

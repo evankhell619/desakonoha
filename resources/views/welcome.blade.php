@@ -10,7 +10,7 @@
 <header class="hero-section">
     <div class="hero-image-container position-relative">
         {{-- Gambar Latar Belakang --}}
-        <img src="{{ asset('build/assets/img/2.jpeg') }}" class="img-fluid w-100" alt="Pemandangan Desa Konoha" style="max-height: 500px;">
+        <img src="{{ asset('build/assets/2.jpeg') }}" class="img-fluid w-100" alt="Pemandangan Desa Konoha" style="max-height: 500px;">
 
         {{-- Teks di atas gambar --}}
         <div class="hero-text-overlay position-absolute bottom-0 start-0 p-4 p-md-5 text-white">
@@ -30,7 +30,7 @@
                 <a class="btn btn-primary btn-lg" href="profil-desa">Lihat Profil Lengkap</a>
             </div>
             <div class="col-lg-6">
-                <img class="img-fluid rounded mb-5 mb-lg-0" src="{{ asset('build/assets/img/1.jpeg') }}" alt="Foto Desa Konoha" />
+                <img class="img-fluid rounded mb-5 mb-lg-0" src="{{ asset('build/assets/1.jpeg') }}" alt="Foto Desa Konoha" />
             </div>
         </div>
     </div>
@@ -54,7 +54,7 @@
                     <div class="carousel-inner rounded">
                         {{-- Item 1 --}}
 <div class="carousel-item active">
-    <img src="{{ asset('build/assets/img/lead1.png') }}" class="d-block w-100" alt="Foto Kepala Desa">
+    <img src="{{ asset('build/assets/lead1.png') }}" class="d-block w-100" alt="Foto Kepala Desa">
     {{-- TAMBAHKAN KELAS 'caption-background' DI SINI --}}
     <div class="carousel-caption d-none d-md-block caption-background">
         <h5 class="text-shadow">Nama Kepala Desa</h5>
@@ -63,7 +63,7 @@
 </div>
 {{-- Item 2 --}}
 <div class="carousel-item">
-    <img src="{{ asset('build/assets/img/lead2.png') }}" class="d-block w-100" alt="Foto Sekretaris Desa">
+    <img src="{{ asset('build/assets/lead2.png') }}" class="d-block w-100" alt="Foto Sekretaris Desa">
      {{-- TAMBAHKAN KELAS 'caption-background' DI SINI --}}
     <div class="carousel-caption d-none d-md-block caption-background">
         <h5 class="text-shadow">Nama Sekretaris Desa</h5>
@@ -72,7 +72,7 @@
 </div>
 {{-- Item 3 --}}
 <div class="carousel-item">
-    <img src="{{ asset('build/assets/img/lead3.png') }}" class="d-block w-100" alt="Foto Bendahara Desa">
+    <img src="{{ asset('build/assets/lead3.png') }}" class="d-block w-100" alt="Foto Bendahara Desa">
      {{-- TAMBAHKAN KELAS 'caption-background' DI SINI --}}
     <div class="carousel-caption d-none d-md-block caption-background">
         <h5 class="text-shadow">Nama Bendahara Desa</h5>
@@ -102,7 +102,7 @@
             {{-- Contoh Berita 1 --}}
             <div class="col-lg-4 mb-5">
                 <div class="card h-100 shadow border-0">
-                    <img class="card-img-top" src="{{ asset('build/assets/img/news1.png') }}" alt="..." />
+                    <img class="card-img-top" src="{{ asset('build/assets/news1.png') }}" alt="..." />
                     <div class="card-body p-4">
                         <div class="badge bg-primary bg-gradient rounded-pill mb-2">Pembangunan</div>
                         <a class="text-decoration-none link-dark stretched-link" href="#!"><h5 class="card-title mb-3">Judul Berita Pertama</h5></a>
@@ -113,7 +113,7 @@
              {{-- Contoh Berita 2 --}}
              <div class="col-lg-4 mb-5">
                 <div class="card h-100 shadow border-0">
-                    <img class="card-img-top" src="{{ asset('build/assets/img/news2.png') }}" alt="..." />
+                    <img class="card-img-top" src="{{ asset('build/assets/news2.png') }}" alt="..." />
                     <div class="card-body p-4">
                         <div class="badge bg-success bg-gradient rounded-pill mb-2">Kegiatan</div>
                         <a class="text-decoration-none link-dark stretched-link" href="#!"><h5 class="card-title mb-3">Judul Berita Kedua</h5></a>
@@ -124,7 +124,7 @@
              {{-- Contoh Berita 3 --}}
              <div class="col-lg-4 mb-5">
                 <div class="card h-100 shadow border-0">
-                    <img class="card-img-top" src="{{ asset('build/assets/img/news4.png') }}" alt="..." />
+                    <img class="card-img-top" src="{{ asset('build/assets/news4.png') }}" alt="..." />
                     <div class="card-body p-4">
                         <div class="badge bg-warning bg-gradient rounded-pill mb-2">Pengumuman</div>
                         <a class="text-decoration-none link-dark stretched-link" href="#!"><h5 class="card-title mb-3">Judul Berita Ketiga</h5></a>
